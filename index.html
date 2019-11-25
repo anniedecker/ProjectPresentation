@@ -3,8 +3,12 @@
 <html>
 
 <head>
+   
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+       
 
-    <title>Impress Tutorial</title>
+    <title>Group 3 MIS 3033 Presentation</title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -13,6 +17,25 @@
 </head>
 
 <body>
+    <div id="impress-toolbar">
+        <span id="impress-toolbar-group-0">
+            <button id="impress-navigation-ui-prev" title="Previous" class="impress-navigation-ui">&lt;</button><select id="impress-navigation-ui-select" title="Go to" class="impress-navigation-ui">
+                <option value="title">Title</option>
+                <option value="introduction">Introduction</option>
+                <option value="project">project</option>
+                <option value="choice">choice</option>
+                <option value="challenges">challenges</option>
+                <option value="slide-6">slide-6</option>
+                <option value="demo">demmo</option>
+                <option value="ing">ing</option>
+                <!--<option value="imagination">imagination</option>
+                <option value="source">source</option>
+                <option value="one-more-thing">one-more-thing</option>
+                <option value="its-in-3d">its-in-3d</option>
+                <option value="overview">overview</option>-->
+            </select><button id="impress-navigation-ui-next" title="Next" class="impress-navigation-ui">&gt;</button>
+        </span><span id="impress-toolbar-group-10"><button id="impress-autoplay-playpause" title="Autoplay" class="impress-autoplay" style="width: 27px; height: 22px;">||</button></span>
+    </div>
 
     <div id="impress">
 
@@ -26,7 +49,8 @@
 
         <div class="step" data-x="0" data-y="0">
 
-            This is my first slide.  I start at 0,0.  Welcome.
+            <h1>MIS 3033 Project Presentation.</h1>
+            <h2>Annie Decker, Paula Tran, Maia Stokes</h2>
 
         </div>
 
@@ -34,7 +58,7 @@
 
         <div class="step" data-x="500" data-y="0">
 
-            This is slide 2.  It slides left 500 pixels.
+            For our presentation, we used impress.js. impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.
 
         </div>
 
@@ -42,7 +66,7 @@
 
         <div class="step" data-x="500" data-y="-400">
 
-            This is slide 3.  It slides down 400 pixels.
+            <h1>Our Project</h1>
 
         </div>
 
@@ -50,7 +74,7 @@
 
         <div class="step" data-x="500" data-y="-800" data-scale="0.5">
 
-            This is slide 4.  It scales everything up by a factor of 2.
+            <h2>We chose to make a random seat generator using JSON.</h2>
 
         </div>
 
@@ -58,7 +82,14 @@
 
         <div class="step" data-x="0" data-y="-800" data-rotate="90">
 
-            This is slide 5 and it rotates in.
+            <h1>We liked the challenge of the constraint statements on this particular project.</h1>
+            <h2>Constraints:</h2>
+            <ul>
+                <li>Not allowing two students to sit together.</li>
+                <li>Sitting a certain student at a particular workstation.</li>
+                <li>Excluding a broken workstation from being assigned a student.</li>
+                <li>Lastly, whether or not to skip students.</li>
+            </ul>
 
         </div>
 
@@ -74,7 +105,7 @@
 
         <div class="step" data-x="-2600" data-y="-800" data-rotate-x="30" data-rotate-y="-60" data-rotate-z="90" data-scale="4">
 
-            This is slide 7 and it has a 3D transition AND a scale.
+            demo
 
         </div>
 
@@ -83,13 +114,7 @@
     </div>
 
     <script type="text/javascript" src="impress.js"></script>
-
-    <!--
-
-        call `impress().init()` function to initialize impress.js presentation.
-
-    -->
-
+  
     <script>impress().init();</script>
 
 </body>
